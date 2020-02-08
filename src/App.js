@@ -1,12 +1,13 @@
 import React from 'react';
 import './App.css';
 import HomePage  from './pages/homepage/homepage.component.jsx';
-import { Route, Switch } from 'react-router-dom';
+import { Route, Switch, Link } from 'react-router-dom';
 
 const HatsPage = (props) => {
   console.log(props)
   return(
   <div>
+    <Link to={`${props.match.url}/14`}>Details Page</Link>
     <h1>Hats Page</h1>
   </div>)
 }
