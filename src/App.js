@@ -7,8 +7,14 @@ const HatsPage = (props) => {
   console.log(props)
   return(
   <div>
-    <Link to={`${props.match.url}/14`}>Details Page</Link>
-    <h1>Hats Page</h1>
+    <ul>
+      <li><Link to={`${props.match.url}/14`}>Details Page 14</Link></li>
+      <li><Link to={`${props.match.url}/15`}>Details Page 15</Link></li>
+      <li><Link to={`${props.match.url}/16`}>Details Page 16</Link></li>
+      <li><Link to={`${props.match.url}/17`}>Details Page 17</Link></li>
+      <h1>Hats Page</h1>
+    </ul>
+
   </div>)
 }
 const HatsDetails = (props) => {
