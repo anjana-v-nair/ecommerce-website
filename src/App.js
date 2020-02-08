@@ -12,6 +12,7 @@ const HatsPage = (props) => {
       <li><Link to={`${props.match.url}/15`}>Details Page 15</Link></li>
       <li><Link to={`${props.match.url}/16`}>Details Page 16</Link></li>
       <li><Link to={`${props.match.url}/17`}>Details Page 17</Link></li>
+      <li><Link to={`${props.match.url}/18`}>Details Page 18</Link></li>
       <h1>Hats Page</h1>
     </ul>
 
